@@ -6,7 +6,7 @@ const configOptions = {
 };
 
 const connectToDB = async () => {
-  const connectionUrl = "mongodb://127.0.0.1:27017/OnlineShopping";
+  const connectionUrl = "mongodb+srv://sharmahimanshu:passwordForHimanshu@cluster0.vukfmrs.mongodb.net/";
 
   mongoose
     .connect(connectionUrl, configOptions)
